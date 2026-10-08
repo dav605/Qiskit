@@ -1,7 +1,7 @@
 # Quantum Computing with Qiskit
 
 A beginner-friendly collection of Qiskit notebooks for learning the fundamentals of quantum computing.
-This repository introduces quantum circuits and single-qubit gates through short, hands-on Jupyter notebooks.
+This repository introduces quantum circuits, single-qubit gates, and multi-qubit gates through short, hands-on Jupyter notebooks.
 No prior quantum computing experience is required, only a basic familiarity with Python.
 
 ## 📚 Contents
@@ -10,6 +10,7 @@ No prior quantum computing experience is required, only a basic familiarity with
 |----------|-------------|
 | Quantum_circuit.ipynb | Introduction to quantum circuits and their basic components |
 | Single_qubit_gates.ipynb | Introduction to single-qubit gates and their effect on quantum states |
+| Multiple_qubit_gate.ipynb | Introduction to multi-qubit gates and how they act on more than one qubit |
 
 ### What you'll learn
 
@@ -23,6 +24,10 @@ No prior quantum computing experience is required, only a basic familiarity with
 - What single-qubit gates are
 - How gates change a qubit's state
 - Inspecting quantum states using statevectors in Qiskit
+
+**Multiple_qubit_gate.ipynb**
+- What multi-qubit gates are
+- How gates act on more than one qubit in a circuit
 
 ## 🚀 Getting Started
 
@@ -46,7 +51,7 @@ pip install jupyter
 1. Clone this repository:
 
    ```bash
-   git clone https://github.com/dav605/Qiskit
+   git clone https://github.com/dav605/Qiskit.git
    cd Qiskit
    ```
 
@@ -58,4 +63,4 @@ pip install jupyter
 
 3. Open a notebook from the file browser and run the cells in order.
 
-We recommend starting with `Quantum_circuit.ipynb`, then moving on to `Single_qubit_gates.ipynb`.
+We recommend following the notebooks in this order: `Quantum_circuit.ipynb`, then `Single_qubit_gates.ipynb`, then `Multiple_qubit_gate.ipynb`.
