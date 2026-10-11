@@ -1,7 +1,7 @@
 # Quantum Computing with Qiskit
 
 A beginner-friendly collection of Qiskit notebooks for learning the fundamentals of quantum computing.
-This repository introduces quantum circuits, single-qubit gates, multi-qubit gates, and circuit drawing through short, hands-on Jupyter notebooks.
+This repository introduces quantum circuits, single-qubit gates, multi-qubit gates, circuit drawing, and Qiskit's little-endian qubit ordering through short, hands-on Jupyter notebooks.
 No prior quantum computing experience is required, only a basic familiarity with Python.
 
 ## 📚 Contents
@@ -12,6 +12,7 @@ No prior quantum computing experience is required, only a basic familiarity with
 | Single_qubit_gates.ipynb | Introduction to single-qubit gates and their effect on quantum states |
 | Multiple_qubit_gate.ipynb | Introduction to multi-qubit gates and how they act on more than one qubit |
 | Drawing_circuits.ipynb | Introduction to drawing and visualizing quantum circuits in Qiskit |
+| Little_Endian.ipynb | Introduction to little-endian qubit ordering in Qiskit |
 
 ### What you'll learn
 
@@ -33,6 +34,10 @@ No prior quantum computing experience is required, only a basic familiarity with
 **Drawing_circuits.ipynb**
 - Drawing quantum circuits in Qiskit
 - Reading and understanding circuit diagrams
+
+**Little_Endian.ipynb**
+- What little-endian ordering means in Qiskit
+- How it affects the order of qubits and measurement results
 
 ## 🚀 Getting Started
 
@@ -56,7 +61,7 @@ pip install jupyter
 1. Clone this repository:
 
    ```bash
-   git clone https://github.com/dav605/Qiskit.git
+   git clone https://github.com/dav605/Qiskit
    cd Qiskit
    ```
 
@@ -68,4 +73,4 @@ pip install jupyter
 
 3. Open a notebook from the file browser and run the cells in order.
 
-We recommend following the notebooks in this order: `Quantum_circuit.ipynb`, then `Single_qubit_gates.ipynb`, `Multiple_qubit_gate.ipynb`, and `Drawing_circuits.ipynb`.
+We recommend following the notebooks in this order: `Quantum_circuit.ipynb`, then `Single_qubit_gates.ipynb`, `Multiple_qubit_gate.ipynb`, `Drawing_circuits.ipynb`, and `Little_Endian.ipynb`.
