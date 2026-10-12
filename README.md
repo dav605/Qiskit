@@ -1,7 +1,7 @@
 # Quantum Computing with Qiskit
 
 A beginner-friendly collection of Qiskit notebooks for learning the fundamentals of quantum computing.
-This repository introduces quantum circuits, single-qubit gates, multi-qubit gates, circuit drawing, and Qiskit's little-endian qubit ordering through short, hands-on Jupyter notebooks.
+This repository introduces quantum circuits, single-qubit gates, multi-qubit gates, circuit drawing, and Qiskit's little-endian qubit ordering through short, hands-on Jupyter notebooks, along with a practice set to test your understanding.
 No prior quantum computing experience is required, only a basic familiarity with Python.
 
 ## 📚 Contents
@@ -13,6 +13,7 @@ No prior quantum computing experience is required, only a basic familiarity with
 | Multiple_qubit_gate.ipynb | Introduction to multi-qubit gates and how they act on more than one qubit |
 | Drawing_circuits.ipynb | Introduction to drawing and visualizing quantum circuits in Qiskit |
 | Little_Endian.ipynb | Introduction to little-endian qubit ordering in Qiskit |
+| Practice_set1.ipynb | Practice problems to review the concepts covered in the other notebooks |
 
 ### What you'll learn
 
@@ -38,6 +39,9 @@ No prior quantum computing experience is required, only a basic familiarity with
 **Little_Endian.ipynb**
 - What little-endian ordering means in Qiskit
 - How it affects the order of qubits and measurement results
+
+**Practice_set1.ipynb**
+- Practice problems to reinforce the concepts from the notebooks above
 
 ## 🚀 Getting Started
 
@@ -73,4 +77,4 @@ pip install jupyter
 
 3. Open a notebook from the file browser and run the cells in order.
 
-We recommend following the notebooks in this order: `Quantum_circuit.ipynb`, then `Single_qubit_gates.ipynb`, `Multiple_qubit_gate.ipynb`, `Drawing_circuits.ipynb`, and `Little_Endian.ipynb`.
+We recommend following the notebooks in this order: `Quantum_circuit.ipynb`, then `Single_qubit_gates.ipynb`, `Multiple_qubit_gate.ipynb`, `Drawing_circuits.ipynb`, `Little_Endian.ipynb`, and finally `Practice_set1.ipynb` to test yourself.
