@@ -1,7 +1,7 @@
 # Quantum Computing with Qiskit
 
 A beginner-friendly collection of Qiskit notebooks for learning the fundamentals of quantum computing.
-This repository introduces quantum circuits, single-qubit gates, multi-qubit gates, circuit drawing, Qiskit's little-endian qubit ordering, running a first simulation, statevectors and operators, `SparsePauliOp`, visualization, and parameterized quantum circuits through short, hands-on Jupyter notebooks, along with a practice set to test your understanding.
+This repository introduces quantum circuits, single-qubit gates, multi-qubit gates, circuit drawing, Qiskit's little-endian qubit ordering, running a first simulation, statevectors and operators, `SparsePauliOp`, visualization, parameterized quantum circuits, and circuit building blocks through short, hands-on Jupyter notebooks, along with a practice set to test your understanding.
 No prior quantum computing experience is required, only a basic familiarity with Python.
 
 ## 📚 Contents
@@ -19,6 +19,7 @@ No prior quantum computing experience is required, only a basic familiarity with
 | Sparse_pauli_op.ipynb | Introduction to `SparsePauliOp` in Qiskit |
 | Visualization.ipynb | Introduction to visualizing quantum states and results in Qiskit |
 | Parameterized_Quantum_Circuits.ipynb | Introduction to parameterized quantum circuits in Qiskit |
+| building_blocks.ipynb | Introduction to building blocks for quantum circuits in Qiskit |
 
 ### What you'll learn
 
@@ -64,6 +65,9 @@ No prior quantum computing experience is required, only a basic familiarity with
 **Parameterized_Quantum_Circuits.ipynb**
 - Building quantum circuits with parameters in Qiskit
 
+**building_blocks.ipynb**
+- Using building blocks to construct quantum circuits in Qiskit
+
 ## 🚀 Getting Started
 
 The notebooks use **Python**, **Qiskit**, and **Jupyter Notebook**.
@@ -98,4 +102,4 @@ pip install jupyter
 
 3. Open a notebook from the file browser and run the cells in order.
 
-We recommend following the notebooks in this order: `Quantum_circuit.ipynb`, then `Single_qubit_gates.ipynb`, `Multiple_qubit_gate.ipynb`, `Drawing_circuits.ipynb`, `Little_Endian.ipynb`, `Practice_set1.ipynb`, `First_simulation.ipynb`, `Statevector_and_operators.ipynb`, `Sparse_pauli_op.ipynb`, `Visualization.ipynb`, and `Parameterized_Quantum_Circuits.ipynb`.
+We recommend following the notebooks in this order: `Quantum_circuit.ipynb`, then `Single_qubit_gates.ipynb`, `Multiple_qubit_gate.ipynb`, `Drawing_circuits.ipynb`, `Little_Endian.ipynb`, `Practice_set1.ipynb`, `First_simulation.ipynb`, `Statevector_and_operators.ipynb`, `Sparse_pauli_op.ipynb`, `Visualization.ipynb`, `Parameterized_Quantum_Circuits.ipynb`, and `building_blocks.ipynb`.
